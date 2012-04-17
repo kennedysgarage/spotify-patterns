@@ -1,0 +1,154 @@
+html,body{
+	background-color:#7db73d;
+	background-image:url("../img/green.png");
+	font-family: "lucida Grande";
+	font-size: 15px;
+}
+h1{
+	color:#30353D;
+	font-size:26px;
+	margin:0;
+}
+h2{
+	color:#30353D;
+	font-size:22px;
+	margin:10px 0 5px;
+}
+h3{
+	color:#30353D;
+	font-size:18px;
+	margin:20px 0 0;
+}
+h4{
+	color:#30353D;
+	font-size:16px;
+	margin:0 5px;
+}
+p{
+	color: #515151;
+	margin:0 0 20px;
+}
+ul, ol{
+	margin:0 0 20px;
+}
+li{
+	color: #515151;
+}
+.container{
+	margin:0 auto;
+	max-width:960px;
+	width:100%;
+}
+/* ========================================================= Header ===*/
+header{
+	
+}
+header img{
+	display:block;
+	margin:30px auto;
+	width:551px;
+}
+/* ========================================================= Content ===*/
+#documentation{
+	background-image:url("../img/dots.png");
+	border: 1px solid #fff;
+	border-radius:4px;
+	box-shadow:0 5px 10px rgba(0,0,0,0.4);
+	margin:0 0 10px;
+	position: relative;
+}
+nav{
+	position: absolute;
+	left:0;
+	width:200px;
+}
+nav ul{
+	
+}
+nav li{
+	
+}
+nav li.active{
+	background-color: #7db73d;
+}
+nav a{
+	background-color: #fff;
+	border-bottom:1px solid #ccc;
+	display: block;
+	margin:10px 0 0 10px;
+	padding:5px;
+}
+.content{
+	background-color:#fff;
+	border-left: 1px solid #ccc;
+	box-shadow: 1px 0 0 #fff inset;
+	padding:30px 30px 0;
+	margin:0 0 0 200px;
+	min-height: 300px;
+}
+/* ========================================================= Preivew ===*/
+style{
+	display: none;
+}
+#preview{
+	margin:0 0 20px;
+}
+#pattern textarea{
+	background-color:#fff;
+	border:none;
+	font-size:13px;
+	font-family: Consolas, Monaco, Andale Mono, Courier New, monospace;
+	min-height:200px;
+	line-height: 1.66;
+	overflow: auto;
+	text-shadow:none;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	width: 100%;
+}
+#html, #css{
+	background-color:#fff;
+	border:1px solid #d9d9d9;
+	border-radius:4px;
+	margin-bottom:10px;
+	padding:10px;
+	width:100%;
+	-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+#html{
+	margin-right:20px;
+}
+#css{
+	
+}
+#html textarea{
+	
+}
+#css textarea{
+	
+}
+/* ========================================================= Footer ===*/​
+footer{
+	
+}
+footer p{
+	color:#3b6929;
+	font-size:12px;
+}
+footer a{
+	color:#27451b;
+}
+#notice{
+	display:inline;
+}
+#crafted{
+	float:right;
+	margin:3px 0 10px;
+}
+/* ========================================================= Utility ===*/
+hr{
+	box-shadow: 0 1px 0 #FFFFFF;
+}
+sup{
+	color:#aaa;
+}
